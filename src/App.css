@@ -28,11 +28,23 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    background-position: 100% 50%;
   }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, #03853d, #025c2a, #016a26);
+  background-size: 200% 200%;
+}
+
+.animate-gradient {
+  animation: gradientAnimation 6s ease infinite;
 }

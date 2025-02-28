@@ -91,7 +91,7 @@ const Plans = () => {
   ];
 
   return (
-    <div className="flex flex-col py-16 justify-center bg-gray-50">
+    <div className="flex flex-col py-16 justify-center bg-gray-50" id="fees">
       <div className="flex flex-col items-center mb-16">
         <h1 className=" text-3xl md:text-6xl font-bold text-[#03853d] mb-4">
           Pricing & Plans

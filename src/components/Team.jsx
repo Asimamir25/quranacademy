@@ -44,7 +44,7 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <div className="flex flex-col items-center py-6">
+    <div className="flex flex-col items-center py-6" id="team">
       <h1 className=" text-3xl text-center md:text-6xl font-bold text-[#03853d] mb-4">
         Meet Our Team
       </h1>
@@ -54,9 +54,11 @@ const Team = () => {
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg md:w-[32%] p-6 my-3 relative group overflow-hidden"
+            className="bg-white shadow-lg   transform translate-x-2 translate-y-2 md:w-[32%] p-6 my-3 relative group overflow-hidden"
           >
+            <div className="absolute inset-0 rounded-lg  bg-[#03853d]/20 transform translate-x-2 translate-y-2"></div>
             {/* Image that expands on hover */}
+
             <img
               src={member.image}
               alt={member.name}
