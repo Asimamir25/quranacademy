@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" my-16 px-4">
+    <div className=" my-16 px-4" id="about">
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold text-[#03853d] mb-4">About Us</h1>
         <div className="w-24 h-1 bg-[#03853d] mx-auto rounded-full"></div>
@@ -38,7 +38,7 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2">
           <div className="relative">
-            <div className="absolute inset-0 bg-[#03853d]/20 rounded-lg transform translate-x-2 translate-y-2"></div>
+            <div className="absolute inset-0 rounded-lg  bg-[#03853d]/20 transform translate-x-2 translate-y-2"></div>
             <img
               src="https://images.pexels.com/photos/19084834/pexels-photo-19084834/free-photo-of-hand-on-koran.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Quran Study"

@@ -3,7 +3,7 @@ import React from "react";
 import Video from "../assets/quran.mp4";
 const Course = () => {
   return (
-    <div className="relative   h-[100%]">
+    <div className="relative   h-[100%]" id="courses">
       {/* Background Video */}
       <video
         autoPlay

@@ -55,7 +55,7 @@ const Hero = () => {
               teachings of the Holy Quran in your daily life. Start learning
               today!
             </p>
-            <button className="bg-[#03853d] mt-10 p-4 rounded-full text-white">
+            <button className="bg-[#03853d] mt-10 p-4 rounded-full font-medium text-white">
               Regeistered Now
             </button>
           </div>
@@ -79,7 +79,7 @@ const Hero = () => {
               teachings of the Holy Quran in your daily life. Start learning
               today!
             </p>
-            <button className="bg-[#03853d] mt-10 p-4 rounded-full text-white">
+            <button className="bg-[#03853d] mt-10 p-4 rounded-full font-medium text-white">
               Regeistered Now
             </button>
           </div>
@@ -102,7 +102,7 @@ const Hero = () => {
               teachings of the Holy Quran in your daily life. Start learning
               today!
             </p>
-            <button className="bg-[#03853d] mt-10 p-4 rounded-full text-white">
+            <button className="bg-[#03853d] mt-10 p-4 rounded-full font-medium text-white">
               Regeistered Now
             </button>
           </div>
